@@ -1,0 +1,62 @@
+clases
+
+Clase alumno:
+String DNI *Primary Key*
+String nombre
+String Apellido1
+String Apellido2
+Date fechaNac
+String Dni_tutor1
+String Dni_tutor2
+Boolean FichaEntregada
+Boolean FotoEntregada
+String Curso(Castor/Lobato/Tropa/Esculta/Clan)
+
+Clase tutor
+String dni *Primary Key*
+String nombre
+String Apellido1
+String Apellido2
+String direccion
+String Localidad
+String cod_postal
+String T_Fijo
+String T_movil
+String email
+
+Clase ListaDeEspera
+String Dni_esperado *Primary Key*
+String nombre
+String Apellido1
+String Apellido2
+Date FechaNac
+String DNI_tutor1
+String DNI_tutor2
+Date disponibilidad
+
+Clase vacantes
+String Id_curso *Primary Key*
+int vacantes
+
+Clase monitores
+String DNI_Staff *Primary Key*
+String Nombre
+String Apellido1
+String Apellido2
+Date fechaNac
+String CorreoE
+String Direccion
+String Localidad
+String cp
+String fijo?
+String movil
+String telEmergencia1
+String telEmergencia2
+Ocupacion(nombre rama/Cocinero/conductor/coordinador)
+
+
+
+
+
+
+
